@@ -1,21 +1,28 @@
 {
     "styleData": [
         {
+            "style-name": "Pick a style!",
+            "style-picture": "default-style.png",
+            "style-about": "",
+            "opening-type": ""
+        },
+        {
+            
             "style-name": "Aggressive",
             "style-picture": "aggressive-style.png",
-            "style-about": "Being aggressive requires giving up material like pawns for a a huge and fast attack. <br>However, if you don't make a significant attack then you will fail miserably.",
+            "style-about": "Being aggressive requires giving up material like pawns for a a huge and fast attack. \nHowever, if you don't make a significant attack then you will fail miserably.",
             "opening-type": "Suggested Opening: King's Gambit"
         },
         {
             "style-name": "Solid ",
             "style-picture": "solid-style.png",
-            "style-about": "Being solid requires knowing where to put your pieces for a slow attack. <br>If you fail to do so, then your opponent will squeeze your pieces and take your king.",
+            "style-about": "Being solid requires knowing where to put your pieces for a slow attack. \nIf you fail to do so, then your opponent will squeeze your pieces and take your king.",
             "opening-type": "Suggested Opening: Queen's Gambit"
         },
         {
             "style-name": "Overall",
             "style-picture": "overall-style.png",
-            "style-about": "Being an overall player requires you to know when and where to be aggressive and solid. <br>Do the wrong one and your whole plan will fail. Very difficult but rewarding.",
+            "style-about": "Being an overall player requires you to know when and where to be aggressive and solid. \nDo the wrong one and your whole plan will fail. Very difficult but rewarding.",
             "opening-type": "Suggested Opening: Ruy Lopez"
         }
     ]
