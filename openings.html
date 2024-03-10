@@ -16,11 +16,6 @@
             margin: 0;
             padding: 1px;
             width: 100%;
-            height: 800px;
-            background-image: url('myotherimages/background-chess.jpg'); 
-            background-size: cover;
-            border-bottom-left-radius: 20%;
-            border-bottom-right-radius: 20%;
             flex-direction: column;
             align-items: center;
         }
@@ -63,46 +58,7 @@
             color: #87CEEB;
         }
         
-        #header-text {
-            margin-top: 250px;
-            font-size: 40px;
-            font-weight: bold;
-            color: white;
-            text-align: center;
-        }
-        #discussion {
-            margin: 40px 400px;
-            height: 400px;
-            background-color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center; 
-            border-radius: 10px;
-        }
-        #discussion-logo{
-            margin-left: 40px;
-            height: 300px;
-            width: auto;
-        }
-        #discussion-logo img {
-
-            width: 100%;
-            height: 100%;
-        }
-        #discussion-text {
-            margin-left: 50px;
-            font-size: 20px;
-            font-weight: bold;
-            color: black;
-        }
-        .section-divider {
-            width: 900;
-            height: 10px;
-            background-color: white;
-            margin: 20px 40px;
-            align-items: center;
-        }
-        #style-box {
+        #opening-box {
             margin: 40px;
             padding: 20px;
             background-color: white;
@@ -139,24 +95,24 @@
             width: auto; 
             height: auto;
         }
-        #style-picture{
+        #opening-picture{
             height: 400px;
             width: auto;
         }
-        #style-picture img {
+        #opening-picture img {
             width: 100%;
             height: 100%;
         }
 
-        #style-name, #style-about, #opening-type {
+        #opening-name, #opening-about, #opening-players {
             font-size: 20px;
         }
 
         #title-box,
-        #style-name,
-        #style-picture,
-        #style-about,
-        #opening-type {
+        #opening-name,
+        #opening-picture,
+        #opening-about,
+        #opening-players {
             margin-bottom: 10px; 
             background-color: white; 
             border-radius: 10px;
@@ -178,36 +134,23 @@
             <a href="openings.html" class="nav-item">OPENINGS</a>
             <a href="about.html" class="nav-item">ABOUT</a>
         </div>
-        <div id="header-text">
-            " I don't know how to start a game of chess! <br> <em>what do I do?</em> "
-        </div>
     </div>
-
-    <div id="discussion">
-        <div id="discussion-logo">
-            <img src="myotherimages/empty-board.png" alt="empty-board">
-        </div>
-        <div id="discussion-text">Studying chess openings will make you confident in your chess ability. <br> Choose which style is best for you. Any style is perfect and reflects personality. <br> See which opening is best for your style.</div>
-    </div>
-
-    <div class="section-divider"></div>
-
-    <div id="style-box">
+    <div id="opening-box">
         <div id="title-box">
             <div class="title-container">
-                <div id="title-text">Personality and Style</div>
+                <div id="title-text">Openings</div>
             </div>
         </div>
-        <div id="style-name"></div>
-        <div id="style-picture">
+        <div id="opening-name"></div>
+        <div id="opening-picture">
             <img src="" alt="">
         </div>
-        <div id="style-about"></div>
-        <div id="opening-type"></div>
+        <div id="opening-about"></div>
+        <div id="opening-players"></div>
         <div id="buttons">
-            <button id="aggressive">Agressive</button>
-            <button id="solid">Solid</button>
-            <button id="overall">Overall</button>
+            <button id="aggressive">King's Gambit</button>
+            <button id="solid">Queen's Gambit</button>
+            <button id="overall">Ruy Lopez</button>
         </div>
     </div>
     
