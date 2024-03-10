@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("style-about").textContent = styleData["style-about"];
         document.getElementById("opening-type").textContent = styleData["opening-type"];
     }
-    function updateOpening (index) {
+    function updateOpening (index, jsonData) {
         const openingData = jsonData.openingData[index];
         document.getElementById("opening-name").textContent = openingData["opening-name"];
         document.getElementById("opening-picture").querySelector("img").src = openingData["opening-picture"];
