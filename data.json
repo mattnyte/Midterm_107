@@ -52,5 +52,21 @@
             "opening-about": "1. e4 e5 2. Nf3 Nc6 3. Bb5! Pinning the horse for a an attack on the king and the pawn on e5 without weakening himself. Very aggressive yet solid.",
             "opening-players": "Magnus Carlsen is perhaps the most diverse player in histroy of chess. He plays like Karpov, Spassky, and Kasparov who have very different styles and he plays this!"
         }
+    ],
+    "authorData": [
+        {
+            "author-name": "Matthew Hill",
+            "author-year": "junior",
+            "author-major": "Software Engineering",
+            "author-email": "matthill@iastate.edu"
+        },
+        {
+            
+            "author-name": "Wyatt Heller",
+            "author-year": "Senior",
+            "author-major": "Math",
+            "author-email": "wyatth88@iastate.edu"
+        }
     ]
+
 }
