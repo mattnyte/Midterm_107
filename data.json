@@ -2,7 +2,7 @@
     "styleData": [
         {
             "style-name": "Pick a style!",
-            "style-picture": "default-style.png",
+            "style-picture": "images/default-style.png",
             "style-about": "",
             "opening-type": ""
         },
@@ -30,19 +30,19 @@
     "openingData": [
         {
             "opening-name": "Pick a opening!",
-            "opening-picture": "default-opening.png",
+            "opening-picture": "images/default-opening.png",
             "opening-about": "",
             "opening-players": ""
         },
         {
             "opening-name": "King's Gambit",
-            "opening-picture": "images/king-gambit-opening.png",
+            "opening-picture": "images/kings-gambit-opening.png",
             "opening-about": "1. e4 e5 2. f4!. Giving up a king pawn that weakens your king, but gives you so much space. Very dangerous for both players!",
             "opening-players": "Spassky has played this when it was popular due to less theory being known. Very tactical and leads to complex battles from both players"
         },
         {
             "opening-name": "Queen's Gambit",
-            "opening-picture": "images/queen-gambit-opening.png",
+            "opening-picture": "images/queens-gambit-opening.png",
             "opening-about": "1. d4 d5 2. c4!. Looks to give up a pawn but can be taken back easily. This gets space without weakening your king. Very solid due to being safe",
             "opening-players": "Karpov has played this opening due to his posiitonal style of play of taking space little by little for small advantages that lead to a long victory"
         },
