@@ -58,9 +58,10 @@
             color: #87CEEB;
         }
         
-        #opening-box {
+        #about-box {
             margin: 40px;
             padding: 20px;
+            padding-bottom: 90px;
             background-color: white;
             display: flex;
             flex-direction: column;
@@ -88,31 +89,40 @@
             color: black; 
             font-weight: bold;
         }
-        button {
-            margin: 0 5px;
-            padding: 25px 50px;
+
+        #class-text {
             font-size: 20px;
-            width: auto; 
-            height: auto;
+            font-weight: bold;
         }
-        #opening-picture{
-            height: 400px;
-            width: auto;
-        }
-        #opening-picture img {
-            width: 100%;
-            height: 100%;
+        .author-text {
+            font-size: 20px;
         }
 
-        #opening-name, #opening-about, #opening-players {
-            font-size: 20px;
+        .author-description {
+            font-size: 15px;
+        }
+
+        #profile1{
+            height: 90px;
+            width: auto;
+        }
+        #profile1 img {
+            width: 100%;
+            height: 100%;
+            filter: sepia(20%) saturate(500%) hue-rotate(180deg);
+        }
+        #profile2{
+            height: 90px;
+            width: auto;
+        }
+        #profile2 img {
+            width: 100%;
+            height: 100%;
+            filter: sepia(90%) saturate(500%) hue-rotate(180deg);
         }
 
         #title-box,
-        #opening-name,
-        #opening-picture,
-        #opening-about,
-        #opening-players {
+        #class-text, .author-text{
             margin-bottom: 10px; 
             background-color: white; 
             border-radius: 10px;
@@ -127,7 +137,7 @@
             width: 100%;
             bottom: 0;
         }
-        
+
     </style>
 </head>
 <body>
@@ -145,28 +155,28 @@
             <a href="about.html" class="nav-item">ABOUT</a>
         </div>
     </div>
-    <div id="opening-box">
+    <div id="about-box">
         <div id="title-box">
             <div class="title-container">
-                <div id="title-text">Openings</div>
+                <div id="title-text">About</div>
             </div>
         </div>
-        <div id="opening-name"></div>
-        <div id="opening-picture">
-            <img src="" alt="">
+        
+        <div id="class-text">SE/ComS319 Construction of User Interfaces, Spring 2024</div>
+        <div id="profile1">
+            <img src="myotherimages/penguin_logo.png" alt="profile">
         </div>
-        <div id="opening-about"></div>
-        <div id="opening-players"></div>
-        <div id="buttons">
-            <button id="kings-gambit">King's Gambit</button>
-            <button id="queens-gambit">Queen's Gambit</button>
-            <button id="ruy-lopez">Ruy Lopez</button>
+        <div class="author-text">Matthew Hill <em><a href="matthill@iastate.edu">matthill@iastate.edu</a></em></div>
+        <div class="author-description">Matthew H. is a Software Engineering Major in his junior year at Iowa State university. Matthew finds the game of chess to be very interesting and was the one the proposed the idea. <br> He also finds AI to be extremely interesting due to AI's ability to help people improve are various topics.</div>
+        <div id="profile2">
+            <img src="myotherimages/penguin_logo.png" alt="profile">
         </div>
+        <div class="author-text">Wyatt Heller <em><a href="wyatth88@iastate.edu">wyatth88@iastate.edu</a></em></div>
+        <div class="author-description">Wyatt H. is a Math Major at Iowa State university. Wyatt finds mathmatics to be very fascniating and uses his spare time to study math and algorithms.</div>
     </div>
 
     <footer>
         &copy; 2024 pengochess. Matthew Hill, and Wyatt Heller. All Rights Reserved (Not really..)
     </footer>
-    
 </body>
 </html>
