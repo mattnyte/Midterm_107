@@ -38,18 +38,18 @@
             "opening-name": "King's Gambit",
             "opening-picture": "images/kings-gambit-opening.png",
             "opening-about": "1. e4 e5 2. f4!. Giving up a king pawn that weakens your king, but gives you so much space. Very dangerous for both players!",
-            "opening-players": "Spassky has played this when it was popular due to less theory being known. Very tactical and leads to complex battles from both players"
+            "opening-players": "Spassky has played this when it was popular due to less theory being known. Very tactical and leads to complex battles from both players."
         },
         {
             "opening-name": "Queen's Gambit",
             "opening-picture": "images/queens-gambit-opening.png",
-            "opening-about": "1. d4 d5 2. c4!. Looks to give up a pawn but can be taken back easily. This gets space without weakening your king. Very solid due to being safe",
-            "opening-players": "Karpov has played this opening due to his posiitonal style of play of taking space little by little for small advantages that lead to a long victory"
+            "opening-about": "1. d4 d5 2. c4!. Looks to give up a pawn but can be taken back easily. This gets space without weakening your king. Very solid due to being safe.",
+            "opening-players": "Karpov has played this opening due to his posiitonal style of play of taking space little by little for small advantages that lead to a long victory."
         },
         {
             "opening-name": "Ruy Lopez",
             "opening-picture": "images/ruy-lopez-opening.png",
-            "opening-about": "1. e4 e5 2. Nf3 Nc6 3. Bb5! Pinning the horse for a an attack on the king and the pawn on e5 without weakening himself. Very aggressive yet solid",
+            "opening-about": "1. e4 e5 2. Nf3 Nc6 3. Bb5! Pinning the horse for a an attack on the king and the pawn on e5 without weakening himself. Very aggressive yet solid.",
             "opening-players": "Magnus Carlsen is perhaps the most diverse player in histroy of chess. He plays like Karpov, Spassky, and Kasparov who have very different styles and he plays this!"
         }
     ]
