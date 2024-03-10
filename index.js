@@ -6,7 +6,7 @@ function updateStyle (index) {
     document.getElementById("opening-type").textContent = styleData["opening-type"];
 }
 function updateOpening (index) {
-    const styleData = jsonData.styleData[index];
+    const openingData = jsonData.openingData[index];
     document.getElementById("opening-name").textContent = styleData["opening-name"];
     document.getElementById("opening-picture").querySelector("img").src = styleData["opening-picture"];
     document.getElementById("opening-about").textContent = styleData["opening-about"];
