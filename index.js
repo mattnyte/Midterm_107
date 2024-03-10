@@ -7,10 +7,10 @@ function updateStyle (index) {
 }
 function updateOpening (index) {
     const openingData = jsonData.openingData[index];
-    document.getElementById("opening-name").textContent = styleData["opening-name"];
-    document.getElementById("opening-picture").querySelector("img").src = styleData["opening-picture"];
-    document.getElementById("opening-about").textContent = styleData["opening-about"];
-    document.getElementById("opening-players").textContent = styleData["opening-players"];
+    document.getElementById("opening-name").textContent = openingData["opening-name"];
+    document.getElementById("opening-picture").querySelector("img").src = openingData["opening-picture"];
+    document.getElementById("opening-about").textContent = openingData["opening-about"];
+    document.getElementById("opening-players").textContent = openingData["opening-players"];
 }
 
 let jsonData;
