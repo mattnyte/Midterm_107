@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm_Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+    <style>
+        body {
+            margin: 0;
+            background-color: #4285F4;
+            font-family: 'Poppins', sans-serif;
+        }
+        #header {
+            margin: 0;
+            padding: 1px;
+            width: 100%;
+            height: 800px;
+            background-image: url('background-chess.jpg'); 
+            background-size: cover;
+            border-bottom-left-radius: 20%;
+            border-bottom-right-radius: 20%;
+            flex-direction: column;
+            align-items: center;
+        }
+        #top {
+            margin: 0px;
+            height: 100px;
+            background-color: #4285F4;
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+        }
+        #logo{
+            height: 90px;
+            width: auto;
+        }
+        #logo img {
+            width: 100%;
+            height: 100%;
+        }
+        #logo-text {
+            margin-left: 10px;
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+        }
+        #nav-bar {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            margin: 20px 50px;
+            border-radius: 10px;
+        }
+        .nav-item {
+            margin: 0 30px;
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+        .nav-item:hover {
+            color: #87CEEB;
+        }
+        
+        #header-text {
+            margin-top: 250px;
+            font-size: 40px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+        }
+        #discussion {
+            margin: 40px 400px;
+            height: 400px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            border-radius: 10px;
+        }
+        #discussion-logo{
+            margin-left: 40px;
+            height: 300px;
+            width: auto;
+        }
+        #discussion-logo img {
+
+            width: 100%;
+            height: 100%;
+        }
+        #discussion-text {
+            margin-left: 50px;
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+        }
+        .section-divider {
+            width: 900;
+            height: 10px;
+            background-color: white;
+            margin: 20px 40px;
+            align-items: center;
+        }
+        #style-box {
+            margin: 40px;
+            padding: 20px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+            border-radius: 10px;
+        }
+        #title-box {
+            padding: 20px; 
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            border-radius: 10px;
+        }
+
+        .title-container {
+            background-color: lightgrey;
+            padding: 30px; 
+            border-radius: 5px;
+        }
+
+        #title-text {
+            font-size: 20px;
+            color: black; 
+            font-weight: bold;
+        }
+        button {
+            margin: 0 5px;
+            padding: 25px 50px;
+            font-size: 20px;
+            width: auto; 
+            height: auto;
+        }
+        #style-picture{
+            height: 400px;
+            width: auto;
+        }
+        #style-picture img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #style-name, #style-about, #opening-type {
+            font-size: 20px;
+        }
+
+        #title-box,
+        #style-name,
+        #style-picture,
+        #style-about,
+        #opening-type {
+            margin-bottom: 10px; 
+            background-color: white; 
+            border-radius: 10px;
+            padding: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="top">
+            <div id="logo">
+                <img src="penguin_logo.png" alt="logo">
+            </div>
+            <div id="logo-text">pengochess</div>
+        </div>
+        <div id="nav-bar">
+            <a href="index.html" class="nav-item">HOME</a>
+            <a href="index.html#style-box" class="nav-item">STYLE</a>
+            <a href="openings.html" class="nav-item">OPENINGS</a>
+            <a href="about.html" class="nav-item">ABOUT</a>
+        </div>
+        <div id="header-text">
+            " I don't know how to start a game of chess! <br> <em>what do I do?</em> "
+        </div>
+    </div>
+
+    <div id="discussion">
+        <div id="discussion-logo">
+            <img src="empty-board.png" alt="empty-board">
+        </div>
+        <div id="discussion-text">Studying chess openings will make you confident in your chess ability. <br> Choose which style is best for you. Any style is perfect and reflects personality. <br> See which opening is best for your style.</div>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <div id="style-box">
+        <div id="title-box">
+            <div class="title-container">
+                <div id="title-text">Personality and Style</div>
+            </div>
+        </div>
+        <div id="style-name">Pick a style!</div>
+        <div id="style-picture">
+            <img src="default-style.png" alt="default style">
+        </div>
+        <div id="style-about">"The sun dipped below the horizon, casting hues of orange and pink across the evening sky.<br>A gentle breeze rustled the leaves of the trees, creating a soothing melody in the air.<br>As darkness descended, the stars began to twinkle, illuminating the night with their silent brilliance."</div>
+        <div id="opening-type"></div>
+        <div id="buttons">
+            <button id="aggressive">Agressive</button>
+            <button id="solid">Solid</button>
+            <button id="overall">Overall</button>
+        </div>
+    </div>
+    
+</body>
+</html>
